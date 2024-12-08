@@ -4,7 +4,7 @@ import FeaturedProducts from "@/components/FeaturedProduct";
 import Hero from "@/components/Hero";
 import HeroSection from "@/components/HeroSection";
 import NeuralUiverse from "@/components/NeuralUiverse";
-import Image from "next/image";
+
 
 export default function Home() {
   return (

@@ -1,4 +1,4 @@
-import Image from "next/image";
+
 import Link from "next/link";
 import { IoMdArrowDropdown } from "react-icons/io";
 import { FaSearch, FaShoppingCart, FaHeart, FaUser } from "react-icons/fa";
