@@ -1,11 +1,11 @@
 import React from 'react'
-
+import Image from 'next/image'
 const NeuralUiverse = () => {
   return (
     <div className="  
     flex flex-col md:flex-row items-center justify-center min-h-screen p-4">
                     <div className=" md:w-1/2 flex justify-center">
-                        <img src="/14.png" alt="A happy couple wearing red and black checkered scarves" className="w-full h-auto object-cover"/>
+                        <Image src="/14.png" alt="A happy couple wearing red and black checkered scarves" className="w-full h-auto object-cover"/>
                     </div>
                     <div className=" md:w-1/2 p-6">
                         <p className="text-gray-500 uppercase tracking-wide text-sm">Summer 2020</p>

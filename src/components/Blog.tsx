@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Image from 'next/image'
 const Blog = () => {
   return (
     <div className="container mx-auto p-4">
@@ -10,7 +10,7 @@ const Blog = () => {
     </div>
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         <div className="bg-white shadow-md rounded-lg overflow-hidden">
-            <img src="/14.jpg" alt="Colorful buildings along a street" className="w-full h-96 object-cover"/>
+            <Image src="/14.jpg" alt="Colorful buildings along a street" className="w-full h-96 object-cover"/>
             <div className="p-4">
                 <div className="flex items-center justify-between mb-2">
                     <span className="bg-red-500 text-white text-xs font-bold px-2 py-1 rounded">NEW</span>
@@ -26,7 +26,7 @@ const Blog = () => {
             </div>
         </div>
         <div className="bg-white shadow-md rounded-lg overflow-hidden">
-            <img src="/13.jpg" alt="Pink vintage car parked by a blue wall" className="w-full h-96 object-cover"/>
+        <Image src="/13.jpg" alt="Pink vintage car parked by a blue wall" className="w-full h-96 object-cover"/>
             <div className="p-4">
                 <div className="flex items-center justify-between mb-2">
                     <span className="bg-red-500 text-white text-xs font-bold px-2 py-1 rounded">NEW</span>
@@ -42,7 +42,7 @@ const Blog = () => {
             </div>
         </div>
         <div className="bg-white shadow-md rounded-lg overflow-hidden">
-            <img src="/12.jpg" alt="Colorful umbrellas hanging in the sky" className="w-full h-96 object-cover"/>
+        <Image src="/12.jpg" alt="Colorful umbrellas hanging in the sky" className="w-full h-96 object-cover"/>
             <div className="p-4">
                 <div className="flex items-center justify-between mb-2">
                     <span className="bg-red-500 text-white text-xs font-bold px-2 py-1 rounded">NEW</span>
